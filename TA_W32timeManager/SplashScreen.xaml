@@ -5,16 +5,25 @@
         AllowsTransparency="True"
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
-        Width="400" Height="300"
+        Width="1000" Height="800"
         ShowInTaskbar="False" Topmost="True">
     <Grid Background="#FF2B6CB0" Opacity="0.95">
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Time Service Manager"
-                       FontSize="24" Foreground="White" FontWeight="Bold"
-                       HorizontalAlignment="Center" Margin="0,20,0,10"/>
+                       FontSize="60" Foreground="White" FontWeight="Bold"
+                       HorizontalAlignment="Center" Margin="0,20,0,10" Height="107"/>
             <ProgressBar IsIndeterminate="True"
-                         Width="200" Height="20"
+                         Width="580" Height="54"
                          Foreground="White"/>
         </StackPanel>
+
+        <!-- 右下にロゴ追加 -->
+        <Image Source="TA_logo_30th.png" 
+               Width="350" 
+               Height="250"
+               HorizontalAlignment="Right" 
+               VerticalAlignment="Bottom"
+               Margin="0,0,15,15"
+               Opacity="0.9"/>
     </Grid>
 </Window>

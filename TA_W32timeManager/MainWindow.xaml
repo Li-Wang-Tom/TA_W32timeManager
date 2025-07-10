@@ -1,9 +1,10 @@
 ﻿<Window x:Class="W32TimeManager.MainWindow"
-        <!-- v1.1 -->
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Time Service Manager" Height="400" Width="600" WindowStartupLocation="CenterScreen"
-        Opacity="0" Background="#121212">
+        Title="Time Service Manager" 
+        Height="400" Width="600" 
+        WindowStartupLocation="CenterScreen"
+        Background="#121212">
 
     <!-- 起動時フェードイン -->
     <Window.Triggers>

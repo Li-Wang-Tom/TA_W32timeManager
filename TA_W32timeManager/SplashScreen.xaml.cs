@@ -14,7 +14,7 @@ namespace TA_W32TimeManager
 
         private async void SplashScreen_Loaded(object sender, RoutedEventArgs e)
         {
-            await Task.Delay(2000); // 表示2秒
+            await Task.Delay(4000); // 表示4秒
             var mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
